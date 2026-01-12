@@ -24,7 +24,7 @@ const Projects = () => {
       subtitle: 'CMO Partner Evaluation Framework',
       description:
         'Built a quantitative evaluation framework to assess and rank global CMO partners based on compliance, capabilities, and strategic fit for scalable commercialization. Supported product-line specific marketing strategy by analyzing customer segments and crafting differentiated positioning narratives.',
-      skills: ['Framework Design', 'CMO Evaluation', 'Marketing Strategy', 'Segmentation'],
+      skills: ['Framework   Design', 'CMO Evaluation', 'Marketing Strategy', 'Segmentation'],
       period: 'Aug 2025 – Dec 2025',
     },
   ]
