@@ -79,7 +79,7 @@ const Hero = () => {
           </div>
           <div className="hero__badge">
             <span className="hero__badge-label">Seeking</span>
-            <span className="hero__badge-text">Summer 2026 Internship</span>
+            <span className="hero__badge-text">Summer 2026 Internships and Co-op</span>
           </div>
         </div>
       </div>
