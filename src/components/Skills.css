@@ -1,0 +1,112 @@
+.skills__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-2xl);
+}
+
+.skills__categories {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.skills__category {
+  position: relative;
+}
+
+.skills__category-title {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-md);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.skills__category-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--color-border);
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.skills__item {
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  padding: var(--space-xs) var(--space-sm);
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  transition: var(--transition);
+  cursor: default;
+}
+
+.skills__item:hover {
+  border-color: var(--color-accent);
+  background-color: rgba(137, 152, 109, 0.08);
+}
+
+.skills__interests {
+  padding: var(--space-lg);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-secondary);
+  height: fit-content;
+  position: relative;
+}
+
+.skills__interests::before {
+  content: '✦';
+  position: absolute;
+  top: -12px;
+  left: var(--space-md);
+  background-color: var(--color-bg-secondary);
+  padding: 0 var(--space-xs);
+  color: var(--color-accent);
+  font-size: 0.875rem;
+}
+
+.skills__interests-title {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-text);
+  margin-bottom: var(--space-md);
+}
+
+.skills__interests-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.skills__interest {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+}
+
+.skills__interest-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+@media (max-width: 968px) {
+  .skills__content {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+}
