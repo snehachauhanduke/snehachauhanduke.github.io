@@ -39,10 +39,10 @@ const Hero = () => {
             </p>
           </div>
 
-          <p className="hero__description animate-fade-in-up delay-2">
-            Currently pursuing a Master of Engineering Management at Duke University.
-My background spans strategy consulting, advanced analytics, and applied AI, with experience building predictive models and delivering data-driven insights that influence executive decisions across US and EU markets. From automating forecasting systems to shaping portfolio and go-to-market strategies in healthcare and life sciences, I work at the intersection of technology, analytics, and strategy to solve complex business problems at scale.
-          </p>
+       <p className="hero__description animate-fade-in-up delay-2" style={{ textAlign: 'justify' }}>
+  Currently pursuing a <span style={{ fontWeight: 600, color: '#4f46e5' }}>Master of Engineering Management at Duke University</span>.
+  My background spans strategy consulting, advanced analytics, and applied AI, with experience building predictive models and driving executive decisions across US and EU markets. From automating forecasting systems to shaping portfolio and go-to-market strategies in healthcare and life sciences, I work at the intersection of technology, data, and strategy to solve complex business problems at scale.
+</p>
 
           <div className="hero__links animate-fade-in-up delay-3">
             {socialLinks.map((link) => (
