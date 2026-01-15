@@ -159,3 +159,20 @@
     padding: var(--space-md);
   }
 }
+
+.education__card {
+  transition: all 0.3s ease;
+}
+
+.education__institution {
+  transition: color 0.3s ease;
+}
+
+.education__card:hover .education__institution {
+  color: #4f46e5; /* Indigo highlight color - adjust to match your theme */
+}
+
+/* Optional: Add a subtle glow effect on hover */
+.education__card:hover {
+  box-shadow: 0 8px 30px rgba(79, 70, 229, 0.15);
+}
