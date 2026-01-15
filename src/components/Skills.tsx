@@ -54,7 +54,7 @@ const Skills = () => {
       ),
       skills: [
         'Travel & Content Creation (20K+ Community)',
-        'Photography',
+        <br>'Photography',</br>
         'Music',
       ],
     },
