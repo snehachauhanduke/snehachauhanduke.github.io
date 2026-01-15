@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="hero__intro animate-fade-in-up">
             <span className="hero__greeting">Hello, I'm</span>
             <h1 className="hero__name">
-              <em>Sneha Chauhan</em>
+              Sneha <em>Chauhan</em>
             </h1>
           
           </div>

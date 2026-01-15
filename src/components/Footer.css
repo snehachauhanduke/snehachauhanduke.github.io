@@ -17,7 +17,7 @@
 }
 
 .footer__logo {
-  font-family: var(--font-serif);
+  font-family: var(--font-inter);
   font-size: 1.5rem;
   font-style: italic;
   color: var(--color-accent);

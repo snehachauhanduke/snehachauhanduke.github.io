@@ -46,7 +46,7 @@
 }
 
 .hero__name {
-  font-family: var(--font-serif);
+  font-family: var(--font-inter);
   font-size: clamp(3rem, 8vw, 5rem);
   font-weight: 400;
   line-height: 1.1;
@@ -154,7 +154,7 @@
 }
 
 .hero__image-placeholder span {
-  font-family: var(--font-serif);
+  font-family: var(--font-inter);
   font-size: 6rem;
   font-style: italic;
   color: var(--color-accent);
