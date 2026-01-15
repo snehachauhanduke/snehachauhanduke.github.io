@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
 
        <p className="hero__description animate-fade-in-up delay-2" style={{ textAlign: 'justify' }}>
-  Currently pursuing a <span style={{ fontWeight: 600, color: '#4f46e5' }}>Master of Engineering Management at Duke University</span>.
+  Currently pursuing a <em>Master of Engineering Management at Duke University</em>.
   My background spans strategy consulting, advanced analytics, and applied AI, with experience building predictive models and driving executive decisions across US and EU markets. From automating forecasting systems to shaping portfolio and go-to-market strategies in healthcare and life sciences, I work at the intersection of technology, data, and strategy to solve complex business problems at scale.
 </p>
 
