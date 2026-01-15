@@ -113,17 +113,18 @@
 }*/
 
 /* Skills.css */
+/* Skills.css */
 
 .skills {
   padding: 6rem 0;
-  background: #fdf8f6; /* Warm light background like the reference */
+  background: #ffffff;
 }
 
 .section-label {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background: #fee2e2;
-  color: #dc2626;
+  background: rgba(137, 152, 109, 0.15);
+  color: #89986D;
   border-radius: 2rem;
   font-size: 0.85rem;
   font-weight: 500;
@@ -140,7 +141,7 @@
 
 .section-title em {
   font-style: italic;
-  color: #e07a5f; /* Warm coral accent */
+  color: #89986D;
 }
 
 .section-subtitle {
@@ -158,16 +159,17 @@
 }
 
 .skills__card {
-  background: #ffffff;
+  background: #f9faf7; /* Very subtle green-tinted white */
   border-radius: 1rem;
   padding: 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(137, 152, 109, 0.1);
   transition: all 0.3s ease;
 }
 
 .skills__card:hover {
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 40px rgba(137, 152, 109, 0.15);
   transform: translateY(-2px);
+  border-color: rgba(137, 152, 109, 0.3);
 }
 
 .skills__card-header {
@@ -183,8 +185,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fee2e2;
-  color: #e07a5f;
+  background: rgba(137, 152, 109, 0.15);
+  color: #89986D;
   border-radius: 0.75rem;
 }
 
@@ -211,9 +213,9 @@
 }
 
 .skills__tag:hover {
-  border-color: #e07a5f;
-  color: #e07a5f;
-  background: #fef7f5;
+  border-color: #89986D;
+  color: #89986D;
+  background: rgba(137, 152, 109, 0.08);
 }
 
 /* Responsive */
