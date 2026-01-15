@@ -1,3 +1,4 @@
+/*
 .skills__content {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -108,5 +109,120 @@
   .skills__content {
     grid-template-columns: 1fr;
     gap: var(--space-xl);
+  }
+}*/
+
+/* Skills.css */
+
+.skills {
+  padding: 6rem 0;
+  background: #fdf8f6; /* Warm light background like the reference */
+}
+
+.section-label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #fee2e2;
+  color: #dc2626;
+  border-radius: 2rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.section-title em {
+  font-style: italic;
+  color: #e07a5f; /* Warm coral accent */
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.skills__card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.skills__card:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.skills__card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills__card-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fee2e2;
+  color: #e07a5f;
+  border-radius: 0.75rem;
+}
+
+.skills__card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.skills__card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills__tag {
+  padding: 0.5rem 1rem;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  color: #444;
+  transition: all 0.2s ease;
+}
+
+.skills__tag:hover {
+  border-color: #e07a5f;
+  color: #e07a5f;
+  background: #fef7f5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-title {
+    font-size: 2rem;
   }
 }
