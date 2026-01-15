@@ -13,7 +13,6 @@ const Education = () => {
         'Competitive Strategy',
         'Marketing',
         'Finance',
-        'Consulting Practicum',
         'Designing Customer Experience',
       ],
     },
