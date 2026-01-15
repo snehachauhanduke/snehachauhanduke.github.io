@@ -9,10 +9,10 @@ const Skills = () => {
           <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
         </svg>
       ),
-      skills: ['SQL', 'Python', 'VBA', 'Excel', 'PowerPoint', 'Tableau', 'Power BI'],
+      skills: ['SQL', 'Python', 'VBA', 'Microsoft Excel', 'Microsoft PowerPoint', 'Tableau', 'Power BI', 'Figma'],
     },
     {
-      title: 'Analytics & Modeling',
+      title: 'Strategy & Analytics',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
           <path d="M3 3v18h18"/>
@@ -25,9 +25,9 @@ const Skills = () => {
         'Forecasting',
         'Financial Modeling',
         'Time Series',
-        'Monte Carlo Analysis',
-        'Sensitivity Analysis',
-        'Demand Projection',
+        'Sensitivity & Monte Carlo Analysis',
+        'Go-To-Market Strategy',
+        'Commercial Demand Planning', 'Product Marketing'
       ],
     },
     {
@@ -53,7 +53,7 @@ const Skills = () => {
         </svg>
       ),
       skills: [
-        'Travel & Content Creation (20K+)',
+        'Travel & Content Creation (20K+ Community)',
         'Photography',
         'Music',
       ],
@@ -67,9 +67,6 @@ const Skills = () => {
         <h2 className="section-title">
           Technical & <em>Strategic Capabilities</em>
         </h2>
-        <p className="section-subtitle">
-          A comprehensive toolkit spanning technical implementation, strategic planning, and analytics to deliver data-driven business solutions.
-        </p>
 
         <div className="skills__grid">
           {skillCategories.map((category, index) => (
