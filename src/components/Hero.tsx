@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="hero__intro animate-fade-in-up">
             <span className="hero__greeting">Hello, I'm</span>
             <h1 className="hero__name">
-              Sneha <em>Chauhan</em>
+              <em>Sneha Chauhan</em>
             </h1>
             <p className="hero__title">
               Strategy & Analytics Professional
