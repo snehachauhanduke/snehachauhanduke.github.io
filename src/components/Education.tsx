@@ -60,9 +60,9 @@ const Education = () => {
 
                 {edu.coursework && (
                   <div className="education__highlight">
-                    <span className="education__highlight-icon">📚</span>
+                    <span className="education__highlight-icon">★</span>
                     <p>
-                      <strong>Relevant Coursework:</strong> {edu.coursework.join(', ')}
+                      Relevant Coursework: {edu.coursework.join(', ')}
                     </p>
                   </div>
                 )}
