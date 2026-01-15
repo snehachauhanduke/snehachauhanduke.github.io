@@ -17,7 +17,7 @@ const Experience = () => {
       location: 'Pune, India',
       roles: [
         {
-          title: 'Assistant Manager - Strategy Forecasting',
+          title: 'Assistant Manager - Forecasting & Strategy',
           period: 'Feb 2025 – Jun 2025',
           highlights: [
             'Enhanced healthcare operations forecasting accuracy by 15% using SQL and Excel predictive models, supporting portfolio and go-to-market decisions',
