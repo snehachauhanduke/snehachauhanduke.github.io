@@ -14,6 +14,7 @@ const Education = () => {
         'Marketing',
         'Finance',
         'Consulting Practicum',
+        'Designing Customer Experience',
       ],
     },
     {
@@ -58,13 +59,11 @@ const Education = () => {
                 </div>
 
                 {edu.coursework && (
-                  <div className="education__coursework">
-                    <span className="education__coursework-label">Relevant Coursework</span>
-                    <div className="education__coursework-list">
-                      {edu.coursework.map((course) => (
-                        <span key={course} className="education__course">{course}</span>
-                      ))}
-                    </div>
+                  <div className="education__highlight">
+                    <span className="education__highlight-icon">📚</span>
+                    <p>
+                      <strong>Relevant Coursework:</strong> {edu.coursework.join(', ')}
+                    </p>
                   </div>
                 )}
 
