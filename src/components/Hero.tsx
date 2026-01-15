@@ -47,9 +47,7 @@ const Hero = () => {
             <h1 className="hero__name">
               <em>Sneha Chauhan</em>
             </h1>
-            <p className="hero__title">
-              Strategy & Analytics Professional
-            </p>
+          
           </div>
 
        <p className="hero__description animate-fade-in-up delay-2" style={{ textAlign: 'justify' }}>
