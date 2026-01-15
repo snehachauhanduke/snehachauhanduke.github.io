@@ -17,7 +17,7 @@ const Experience = () => {
       location: 'Pune, India',
       roles: [
         {
-          title: 'Assistant Manager',
+          title: 'Assistant Manager - Strategy Forecasting',
           period: 'Feb 2025 – Jun 2025',
           highlights: [
             'Enhanced healthcare operations forecasting accuracy by 15% using SQL and Excel predictive models, supporting portfolio and go-to-market decisions',
@@ -32,7 +32,7 @@ const Experience = () => {
       location: 'Pune, India',
       roles: [
         {
-          title: 'Associate Consultant',
+          title: 'Decision Analytics Associate Consultant',
           period: 'Jan 2023 – Jan 2025',
           highlights: [
             'Lead product management and training for commercial & growth analytics teams, enabling scalable delivery of strategic insights across the biopharma product portfolio',
@@ -41,7 +41,7 @@ const Experience = () => {
           ],
         },
         {
-          title: 'Associate',
+          title: 'Decision Analytics Associate',
           period: 'Oct 2020 – Dec 2022',
           highlights: [
             'Delivered 100+ commercial and market access reports using IQVIA and Symphony Health data guiding pricing, access, and investment strategy',
