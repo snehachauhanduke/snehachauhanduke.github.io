@@ -23,6 +23,19 @@ const Hero = () => {
       </svg>
     )
   },
+   { 
+    label: 'Resume', 
+    href: '/resume.pdf', // Update this path to your actual resume file location
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+        <polyline points="14 2 14 8 20 8"/>
+        <line x1="12" y1="18" x2="12" y2="12"/>
+        <polyline points="9 15 12 18 15 15"/>
+      </svg>
+    ),
+    download: true // Optional flag if you want to handle download behavior differently
+  },
 ]
 
   return (
@@ -40,7 +53,7 @@ const Hero = () => {
           </div>
 
        <p className="hero__description animate-fade-in-up delay-2" style={{ textAlign: 'justify' }}>
-  Currently pursuing a <em>Master of Engineering Management at Duke University</em>.
+  Currently pursuing a <span style={{ fontWeight: 600, color: '#4f46e5' }}>Master of Engineering Management at Duke University</span>.
   My background spans strategy consulting, advanced analytics, and applied AI, with experience building predictive models and driving executive decisions across US and EU markets. From automating forecasting systems to shaping portfolio and go-to-market strategies in healthcare and life sciences, I work at the intersection of technology, data, and strategy to solve complex business problems at scale.
 </p>
 
