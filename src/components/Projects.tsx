@@ -37,9 +37,7 @@ const Projects = () => {
           Projects That Shaped My <em>Consulting Skills</em>
         </h2>
         <p className="projects__subtitle">
-          A showcase of strategic initiatives and analytical solutions that delivered measurable business impact.
-        </p>
-
+          A showcase of strategic initiatives and analytical solutions that delivered measurable business impact.   </p>
         <div className="projects__list">
           {projects.map((project, index) => (
             <article key={project.title} className="project-card">
