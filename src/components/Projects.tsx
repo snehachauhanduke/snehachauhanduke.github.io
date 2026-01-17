@@ -49,7 +49,7 @@ const Projects = () => {
 
               <div className="project-card__content">
                 <div className="project-card__header">
-                  <span className="project-card__tag">Case Study</span>
+                  <span className="project-card__tag">Client Project</span>
                 </div>
 
                 <h3 className="project-card__title">{project.title}</h3>
