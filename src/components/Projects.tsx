@@ -20,7 +20,7 @@ const Projects = () => {
         'Leveraged LLM-driven analytics to extract insights from commercial datasets, shaping long-term planning and market expansion strategies. Designed go-to-market commercialization timelines for bio-pharmaceutical launches, enabling a projected 10% increase in demand during critical launch windows across US and EU markets.',
       skills: ['LLM Analytics', 'Market Strategy', 'Biopharma', 'Go-to-Market'],
       period: 'Aug 2025 – Dec 2025',
-      tag: 'Case Study',
+      tag: 'Client Project',
       presentationUrl: '',
     },
     {
@@ -30,7 +30,7 @@ const Projects = () => {
         'Built a quantitative evaluation framework to assess and rank global CMO partners based on compliance, capabilities, and strategic fit for scalable commercialization. Supported product-line specific marketing strategy by analyzing customer segments and crafting differentiated positioning narratives.',
       skills: ['Framework Design', 'CMO Evaluation', 'Marketing Strategy', 'Segmentation'],
       period: 'Aug 2025 – Dec 2025',
-      tag: 'Client Project',
+      tag: 'Consulting Club Client Project',
       presentationUrl: '',
     },
   ]
