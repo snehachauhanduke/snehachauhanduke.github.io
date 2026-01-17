@@ -1,4 +1,4 @@
-iimport './Projects.css'
+import './Projects.css'
 
 interface Project {
   title: string
