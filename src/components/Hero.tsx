@@ -41,7 +41,7 @@ const Hero = () => {
 
   return (
     <section className="hero" id="intro">
-      <div className="container hero__container"></div>
+      <div className="container hero__container">
         <div className="hero__content">
           <div className="hero__intro animate-fade-in-up">
             <span className="hero__greeting">Hello, I'm</span>
@@ -95,7 +95,7 @@ const Hero = () => {
     <span className="hero__badge-label">Seeking</span>
     <span className="hero__badge-text">Summer 2026 Internships and Co-op</span>
   </div>
-</div>
+</div></div>
 
       <div className="hero__scroll-indicator">
         <span>Scroll</span>
