@@ -1,4 +1,5 @@
 import './Hero.css'
+import profileImage from '/Users/sneha/Downloads/portfolio/src/assets/profile.jpg' 
 
 const Hero = () => {
   const socialLinks = [
@@ -40,7 +41,7 @@ const Hero = () => {
 
   return (
     <section className="hero" id="intro">
-      <div className="container hero__container">
+      <div className="container hero__container"></div>
         <div className="hero__content">
           <div className="hero__intro animate-fade-in-up">
             <span className="hero__greeting">Hello, I'm</span>
@@ -79,12 +80,12 @@ const Hero = () => {
           </a>
         </div>
 
-      import profileImage from '/Users/sneha/Downloads/portfolio/src/assets/profile.jpg' 
+      
 
 <div className="hero__visual animate-fade-in delay-2">
   <div className="hero__image-wrapper">
     <img 
-      src={profile} 
+      src={profileImage} 
       alt="Sneha Chauhan" 
       className="hero__image"
     />
