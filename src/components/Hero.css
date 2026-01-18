@@ -138,8 +138,8 @@
 
 .hero__image-wrapper {
   position: relative;
-  width: 380px;
-  height: 480px;
+  width: 420px;
+  height: 530px;
 }
 
 .hero__image-placeholder {
@@ -163,12 +163,13 @@
 
 .hero__image-border {
   position: absolute;
-  top: 16px;
-  left: 16px;
-  width: calc(100% - 16px);
-  height: calc(100% - 16px);
-  border: 1px solid var(--color-black);
-  opacity: 0.5;
+  top: 12px;
+  left: 12px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  border: 2px solid #000;
+  border-radius: 12px;
+  opacity: 1;
 }
 
 .hero__image {
@@ -177,6 +178,7 @@
   object-fit: cover;
   position: relative;
   z-index: 1;
+  border-radius: 12px;
 }
 
 .hero__badge {
@@ -268,8 +270,8 @@
   }
 
   .hero__image-wrapper {
-    width: 300px;
-    height: 380px;
+    width: 340px;
+    height: 430px;
   }
 
   .hero__badge {
@@ -288,8 +290,8 @@
   }
 
   .hero__image-wrapper {
-    width: 260px;
-    height: 340px;
+    width: 280px;
+    height: 360px;
   }
 
   .hero__image-placeholder span {
