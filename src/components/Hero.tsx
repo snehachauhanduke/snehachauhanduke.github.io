@@ -25,7 +25,7 @@ const Hero = () => {
   },
    { 
     label: 'Resume', 
-    href: '/resume.pdf', // Update this path to your actual resume file location
+    href: 'https://drive.google.com/file/d/1rIVB2FvT6NNj6zIQ3xOwXXHJHY7LPWDe/view?usp=sharing', // Update this path to your actual resume file location
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
