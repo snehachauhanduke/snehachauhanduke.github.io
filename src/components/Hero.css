@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: calc(var(--space-3xl) + 60px);
+  padding-top: 80px;
   padding-bottom: var(--space-2xl);
   position: relative;
   overflow: hidden;
@@ -138,8 +138,8 @@
 
 .hero__image-wrapper {
   position: relative;
-  width: 320px;
-  height: 400px;
+  width: 380px;
+  height: 480px;
 }
 
 .hero__image-placeholder {
@@ -170,6 +170,7 @@
   border: 1px solid var(--color-accent);
   opacity: 0.5;
 }
+
 .hero__image {
   width: 100%;
   height: 100%;
@@ -180,8 +181,8 @@
 
 .hero__badge {
   position: absolute;
-  bottom: -20px;
-  right: -20px;
+  bottom: -40px;
+  right: -40px;
   background-color: var(--color-bg);
   border: 1px solid var(--color-border-light);
   padding: var(--space-sm) var(--space-md);
@@ -267,14 +268,15 @@
   }
 
   .hero__image-wrapper {
-    width: 260px;
-    height: 320px;
+    width: 300px;
+    height: 380px;
   }
 
   .hero__badge {
     right: auto;
     left: 50%;
     transform: translateX(-50%);
+    bottom: -40px;
   }
 }
 
@@ -286,8 +288,8 @@
   }
 
   .hero__image-wrapper {
-    width: 220px;
-    height: 280px;
+    width: 260px;
+    height: 340px;
   }
 
   .hero__image-placeholder span {
