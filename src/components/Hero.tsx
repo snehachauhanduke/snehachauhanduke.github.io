@@ -79,19 +79,22 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="hero__visual animate-fade-in delay-2">
-          <div className="hero__image-wrapper">
-            <div className="hero__image-placeholder">
-              <span>SC</span>
-            </div>
-            <div className="hero__image-border"></div>
-          </div>
-          <div className="hero__badge">
-            <span className="hero__badge-label">Seeking</span>
-            <span className="hero__badge-text">Summer 2026 Internships and Co-op</span>
-          </div>
-        </div>
-      </div>
+      import profileImage from '/Users/sneha/Downloads/portfolio/src/assets/profile.jpg' 
+
+<div className="hero__visual animate-fade-in delay-2">
+  <div className="hero__image-wrapper">
+    <img 
+      src={profile} 
+      alt="Sneha Chauhan" 
+      className="hero__image"
+    />
+    <div className="hero__image-border"></div>
+  </div>
+  <div className="hero__badge">
+    <span className="hero__badge-label">Seeking</span>
+    <span className="hero__badge-text">Summer 2026 Internships and Co-op</span>
+  </div>
+</div>
 
       <div className="hero__scroll-indicator">
         <span>Scroll</span>
