@@ -167,7 +167,7 @@
   left: 16px;
   width: calc(100% - 16px);
   height: calc(100% - 16px);
-  border: 1px solid var(--color-accent);
+  border: 1px solid var(--color-black);
   opacity: 0.5;
 }
 
