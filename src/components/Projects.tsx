@@ -15,22 +15,32 @@ const Projects = () => {
   const projects: Project[] = [
     {
       title: 'Huma.AI',
-      subtitle: 'LLM-Driven Commercial Analytics',
+      subtitle: 'Commercial Strategy & Rebranding',
       description:
-        'Leveraged LLM-driven analytics to extract insights from commercial datasets, shaping long-term planning and market expansion strategies. Designed go-to-market commercialization timelines for bio-pharmaceutical launches, enabling a projected 10% increase in demand during critical launch windows across US and EU markets.',
-      skills: ['LLM Analytics', 'Market Strategy', 'Biopharma', 'Go-to-Market'],
+        'Led a commercial strategy and rebranding engagement for Huma.AI, combining LLM-driven analytics with market and competitor analysis to refine positioning, design a new brand identity, and support biopharma market expansion across US and EU markets.',
+      skills: ['Brand & Rebranding Strategy', 'Market & Competitor Analysis', 'AI Platform Analytics', 'Go-to-Market'],
       period: 'Aug 2025 – Dec 2025',
       tag: 'Client Project',
       presentationUrl: '',
     },
     {
       title: 'Evolve By Nature (EBN)',
-      subtitle: 'CMO Partner Evaluation Framework',
+      subtitle: 'Data-Driven CMO Evaluation and Market Positioning',
       description:
-        'Built a quantitative evaluation framework to assess and rank global CMO partners based on compliance, capabilities, and strategic fit for scalable commercialization. Supported product-line specific marketing strategy by analyzing customer segments and crafting differentiated positioning narratives.',
-      skills: ['Framework Design', 'CMO Evaluation', 'Marketing Strategy', 'Segmentation'],
+        'Developed a quantitative framework to evaluate global CMO partners and supported product-specific marketing strategy through customer segmentation and differentiated positioning analysis.',
+      skills: ['Framework Design', 'Quantitative Decision Framework', 'Marketing & Customer Segmentation', 'Commercialization Strategy'],
       period: 'Aug 2025 – Dec 2025',
-      tag: 'Consulting Club Client Project',
+      tag: 'Pro-Bono Consulting Project',
+      presentationUrl: '',
+    },
+    {
+      title: 'Strategic Analysis of Eli Lilly',
+      subtitle: 'AI-Driven Innovation and the Future of Pharmaceutical R&D',
+      description:
+        'Analyzed Eli Lilly’s competitive position within the global pharmaceutical ecosystem, focusing on AI-led drug development, regulatory challenges, and affordability. Delivered strategic recommendations to support innovation, efficiency, and long-term growth',
+      skills: ['Competitive Strategy', 'Industry & Market Analysis', 'AI & Innovation Strategy', 'STEEP Analysis'],
+      period: 'Aug 2025 – Dec 2025',
+      tag: 'Case Study',
       presentationUrl: '',
     },
   ]
