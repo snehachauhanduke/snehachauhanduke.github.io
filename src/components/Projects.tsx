@@ -1,4 +1,9 @@
 import './Projects.css'
+import humaCover from '../assets/projects/huma.AI cover.png'
+import EliCover from '../assets/projects/Eli Lily Cover cover.png'
+import EBNCover from '../assets/projects/EBNCover cover.png'
+import NetflixCover from '../assets/projects/Netflix Cover cover.png'
+
 
 interface Project {
   title: string
@@ -21,7 +26,7 @@ const Projects = () => {
       skills: ['Brand & Rebranding Strategy', 'Market & Competitor Analysis', 'AI Platform Analytics', 'Go-to-Market'],
       period: 'Aug 2025 – Dec 2025',
       tag: 'Client Project',
-      coverImage: 'https://drive.google.com/file/d/18TN5sR7sCZ9YUiSxSfe1vFyn80OcfFgG/view?usp=sharing',
+      coverImage: humaCover,
       presentationUrl: 'https://drive.google.com/file/d/1PeAiwZBI-RLsPOdv2fsXPH2qAt8TobdN/view?usp=sharing',
     },
     {
@@ -32,7 +37,7 @@ const Projects = () => {
       skills: ['Framework Design', 'Quantitative Decision Framework', 'Marketing & Customer Segmentation', 'Commercialization Strategy'],
       period: 'Aug 2025 – Dec 2025',
       tag: 'Pro-Bono Consulting Project',
-      coverImage: 'https://drive.google.com/file/d/1TN5ORO8ahQirH7lzNvAwXFSn0uimvoQP/view?usp=sharing',
+      coverImage: EBNCover,
       presentationUrl: 'https://drive.google.com/file/d/1YLCZ9D3Y9-CxJXTpvN826jqYiQKOfg5i/view?usp=sharing',
     },
     {
@@ -43,7 +48,7 @@ const Projects = () => {
       skills: ['Competitive Strategy', 'Industry & Market Analysis', 'AI & Innovation Strategy', 'STEEP Analysis'],
       period: 'Aug 2025 – Dec 2025',
       tag: 'Case Study',
-      coverImage: 'https://drive.google.com/file/d/15iHe8s-AjsCgVGJZ86HkO2mecqWzTO3O/view?usp=sharing',
+      coverImage: EliCover,
       presentationUrl: 'https://drive.google.com/file/d/10NMwJuEcmI0yrj50XQ1AnXB61NWAqeMC/view?usp=sharing',
     },
     {
@@ -54,7 +59,7 @@ const Projects = () => {
       skills: ['Market & Competitor Analysis', 'AI & Digital Transformation Strategy', 'Ecosystem & Business Model Analysis', 'Strategic Storytelling & Executive Presentation'],
       period: 'Aug 2025 – Dec 2025',
       tag: 'Case Study',
-      coverImage: 'https://drive.google.com/file/d/1oowxsKjMllbVfHkH4vQDWX35sJ_VNgjR/view?usp=sharing',
+      coverImage: NetflixCover,
       presentationUrl: 'https://drive.google.com/file/d/1Fpb5AeWT3RGJpIQfGS8AAOPs-XYQ45Lr/view?usp=sharing',
     },
   ]
