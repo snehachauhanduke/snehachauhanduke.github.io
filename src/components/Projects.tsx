@@ -43,6 +43,16 @@ const Projects = () => {
       tag: 'Case Study',
       presentationUrl: '',
     },
+    {
+      title: 'Strategic Analysis of Netflix',
+      subtitle: 'AI, Interactive Storytelling, and Platform Evolution',
+      description:
+        'Analyzed Netflix’s strategic shift from a traditional streaming service to an AI-enabled, participatory storytelling platform. Assessed market trends, competitive dynamics, and ecosystem threats to develop recommendations focused on AI–human co-creation, interactive content formats, and long-term platform leadership.',
+      skills: ['Market & Competitor Analysis', 'AI & Digital Transformation Strategy', 'Ecosystem & Business Model Analysis', 'Strategic Storytelling & Executive Presentation'],
+      period: 'Aug 2025 – Dec 2025',
+      tag: 'Case Study',
+      presentationUrl: '',
+    },
   ]
 
   const handlePresentationClick = (url?: string) => {
