@@ -119,7 +119,7 @@
 /* Skills.css */
 
 .skills {
-  padding: 6rem 0;
+  padding: var(--space-3xl) 0;
   background: #ffffff;
 }
 

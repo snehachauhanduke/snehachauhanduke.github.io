@@ -206,7 +206,7 @@
   }
 } */
 .projects {
-  padding: var(--space-2xl) 0;
+  padding: var(--space-3xl) 0;
 }
 .projects__label {
   display: inline-flex;
