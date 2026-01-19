@@ -1,8 +1,8 @@
 import './Projects.css'
-import humaCover from '../assets/projects/huma.AI cover.png'
-import EliCover from '../assets/projects/Eli Lily Cover cover.png'
-import EBNCover from '../assets/projects/EBNCover cover.png'
-import NetflixCover from '../assets/projects/Netflix Cover cover.png'
+import humaCover from '/Users/sneha/Downloads/portfolio/src/assets/huma.AI cover.png'
+import EliCover from '/Users/sneha/Downloads/portfolio/src/assets/Eli Lily Cover cover.png'
+import EBNCover from '/Users/sneha/Downloads/portfolio/src/assets/EBNCover cover.png'
+import NetflixCover from '/Users/sneha/Downloads/portfolio/src/assets/Netflix Cover cover.png'
 
 
 interface Project {
