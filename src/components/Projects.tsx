@@ -1,7 +1,7 @@
 import './Projects.css'
 import humaCover from '/Users/sneha/Downloads/portfolio/src/assets/huma.AI cover.png'
 import EliCover from '/Users/sneha/Downloads/portfolio/src/assets/Eli Lily Cover.png'
-import EBNCover from '/Users/sneha/Downloads/portfolio/src/assets/EBN Cover .png'
+import EBNCover from '/Users/sneha/Downloads/portfolio/src/assets/EBN Cover.png'
 import NetflixCover from '/Users/sneha/Downloads/portfolio/src/assets/Netflix Cover.png'
 
 
