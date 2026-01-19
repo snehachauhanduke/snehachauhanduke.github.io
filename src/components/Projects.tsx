@@ -21,8 +21,8 @@ const Projects = () => {
       skills: ['Brand & Rebranding Strategy', 'Market & Competitor Analysis', 'AI Platform Analytics', 'Go-to-Market'],
       period: 'Aug 2025 – Dec 2025',
       tag: 'Client Project',
-      coverImage: '',
-      presentationUrl: '',
+      coverImage: 'https://drive.google.com/file/d/18TN5sR7sCZ9YUiSxSfe1vFyn80OcfFgG/view?usp=sharing',
+      presentationUrl: 'https://drive.google.com/file/d/1PeAiwZBI-RLsPOdv2fsXPH2qAt8TobdN/view?usp=sharing',
     },
     {
       title: 'Evolve By Nature (EBN)',
@@ -32,8 +32,8 @@ const Projects = () => {
       skills: ['Framework Design', 'Quantitative Decision Framework', 'Marketing & Customer Segmentation', 'Commercialization Strategy'],
       period: 'Aug 2025 – Dec 2025',
       tag: 'Pro-Bono Consulting Project',
-      coverImage: '',
-      presentationUrl: '',
+      coverImage: 'https://drive.google.com/file/d/1TN5ORO8ahQirH7lzNvAwXFSn0uimvoQP/view?usp=sharing',
+      presentationUrl: 'https://drive.google.com/file/d/1YLCZ9D3Y9-CxJXTpvN826jqYiQKOfg5i/view?usp=sharing',
     },
     {
       title: 'Strategic Analysis of Eli Lilly',
@@ -43,8 +43,8 @@ const Projects = () => {
       skills: ['Competitive Strategy', 'Industry & Market Analysis', 'AI & Innovation Strategy', 'STEEP Analysis'],
       period: 'Aug 2025 – Dec 2025',
       tag: 'Case Study',
-      coverImage: '',
-      presentationUrl: '',
+      coverImage: 'https://drive.google.com/file/d/15iHe8s-AjsCgVGJZ86HkO2mecqWzTO3O/view?usp=sharing',
+      presentationUrl: 'https://drive.google.com/file/d/10NMwJuEcmI0yrj50XQ1AnXB61NWAqeMC/view?usp=sharing',
     },
     {
       title: 'Strategic Analysis of Netflix',
@@ -54,8 +54,8 @@ const Projects = () => {
       skills: ['Market & Competitor Analysis', 'AI & Digital Transformation Strategy', 'Ecosystem & Business Model Analysis', 'Strategic Storytelling & Executive Presentation'],
       period: 'Aug 2025 – Dec 2025',
       tag: 'Case Study',
-      coverImage: '',
-      presentationUrl: '',
+      coverImage: 'https://drive.google.com/file/d/1oowxsKjMllbVfHkH4vQDWX35sJ_VNgjR/view?usp=sharing',
+      presentationUrl: 'https://drive.google.com/file/d/1Fpb5AeWT3RGJpIQfGS8AAOPs-XYQ45Lr/view?usp=sharing',
     },
   ]
 
