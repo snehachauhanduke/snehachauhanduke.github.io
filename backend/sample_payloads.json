@@ -1,0 +1,50 @@
+{
+  "demo_scenarios": [
+    {
+      "id": "keytruda_uhc_nsclc",
+      "description": "Keytruda - UnitedHealthcare - NSCLC - Missing PD-L1",
+      "curl_example": "curl -X POST http://localhost:8000/api/analyze-denial -H 'Content-Type: application/json' -d @-",
+      "payload": {
+        "patient_name": "Alex Johnson",
+        "patient_age": 62,
+        "drug_name": "Keytruda (pembrolizumab)",
+        "payer_name": "UnitedHealthcare",
+        "diagnosis": "Non-small cell lung cancer (NSCLC), stage III",
+        "denial_text": "Authorization for pembrolizumab (Keytruda) has been denied. The request does not include documentation of PD-L1 tumor proportion score (TPS) testing. Per plan policy, PD-L1 expression must be documented prior to approval for first-line immunotherapy in NSCLC.",
+        "biomarker_info": "PD-L1 testing not yet completed per denial letter",
+        "prior_therapies": "No prior systemic therapy",
+        "doctor_notes": null
+      }
+    },
+    {
+      "id": "tagrisso_aetna_egfr",
+      "description": "Tagrisso - Aetna - EGFR NSCLC - Missing molecular test",
+      "payload": {
+        "patient_name": "Maria Santos",
+        "patient_age": 55,
+        "drug_name": "Tagrisso (osimertinib)",
+        "payer_name": "Aetna",
+        "diagnosis": "EGFR-mutated non-small cell lung cancer (NSCLC)",
+        "denial_text": "Prior authorization request for osimertinib (Tagrisso) is denied. Medical records submitted do not include results of EGFR mutation testing via an FDA-approved assay. Documentation of EGFR exon 19 deletion or exon 21 L858R substitution mutation is required per Aetna's Clinical Policy Bulletin.",
+        "biomarker_info": "EGFR mutation suspected but molecular test report not attached",
+        "prior_therapies": "None",
+        "doctor_notes": null
+      }
+    },
+    {
+      "id": "darzalex_uhc_mm",
+      "description": "Darzalex - UnitedHealthcare - Multiple Myeloma - Step therapy",
+      "payload": {
+        "patient_name": "Robert Chen",
+        "patient_age": 70,
+        "drug_name": "Darzalex (daratumumab)",
+        "payer_name": "UnitedHealthcare",
+        "diagnosis": "Relapsed/refractory multiple myeloma",
+        "denial_text": "Authorization for daratumumab (Darzalex) is denied. Per UnitedHealthcare oncology coverage guidelines, daratumumab requires documentation of failure of at least two prior lines of therapy including a proteasome inhibitor and an immunomodulatory agent. Submitted records do not clearly document prior therapy failure meeting these criteria.",
+        "biomarker_info": null,
+        "prior_therapies": "Bortezomib-based regimen x1 cycle — discontinued due to neuropathy",
+        "doctor_notes": null
+      }
+    }
+  ]
+}

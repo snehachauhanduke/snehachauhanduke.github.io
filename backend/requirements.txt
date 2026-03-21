@@ -1,0 +1,23 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pydantic==2.7.1
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+
+# RAG / vector store
+langchain==0.2.1
+langchain-community==0.2.1
+langchain-text-splitters==0.2.1
+langchain-chroma==0.1.1
+chromadb==0.5.0
+
+# LLM - pluggable, default to Anthropic Claude
+anthropic==0.28.0
+langchain-anthropic==0.1.13
+
+# PDF parsing
+PyMuPDF==1.24.4
+
+# Embeddings (local fallback - no API key needed)
+sentence-transformers==3.0.0
